@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/MadeleineWallner/Unit-6/issues"
   },
-  "homepage": "https://github.com/MadeleineWallner/Unit-6#readme"
+  "homepage": "https://github.com/MadeleineWallner/Unit-6#readme",
+  "dependencies": {
+    "Express": "^3.0.1",
+    "pug": "^3.0.0"
+  }
 }
