@@ -1,0 +1,19 @@
+{
+  "name": "unit-6",
+  "version": "1.0.0",
+  "description": "Static Node.js and Express Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadeleineWallner/Unit-6.git"
+  },
+  "author": "Madeleine Wallner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadeleineWallner/Unit-6/issues"
+  },
+  "homepage": "https://github.com/MadeleineWallner/Unit-6#readme"
+}
