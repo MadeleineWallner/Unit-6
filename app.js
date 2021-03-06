@@ -22,7 +22,7 @@ app.get('/about', (req, res) => {
 // Project route
 app.get('/project/:id', (req, res, next) => {
     const id  = req.params.id;
-    //if the user navigates to a route that does not exist - render the error page - else render the project page.
+    //if the user navigates to a route that does not exist (if the id is higher than 4 or not a number) - render the error page - else render the project page.
     if (id > projects.length - 1 || isNaN(id)){
         next();
     } else {
@@ -53,6 +53,7 @@ app.use((err, req, res, next) => {
         console.log(err.status);
         console.log(err.message)
     }
+    //if the error status is 404 - render the page-not-found template, else render the error template
     if(err.status === 404){
         res.render('page-not-found', { err });
     } else {
@@ -68,14 +69,3 @@ app.use((err, req, res, next) => {
 app.listen(3000, () => {
     console.log("The application is running on localhost:3000")
 });
-
-
-/* error testing
-app.get('/error', (req, res) => {
-    const err = new Error();
- err.status = 505
-throw err
-    res.render(error);
-}); */
-
-
