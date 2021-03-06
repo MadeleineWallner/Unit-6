@@ -20,8 +20,8 @@ app.get('/about', (req, res) => {
 
 
 // Project route
-app.get('/:id', (req, res, next) => {
-    const { id } = req.params;
+app.get('/project/:id', (req, res, next) => {
+    const id  = req.params.id;
     //if the user navigates to a route that does not exist - render the error page - else render the project page.
     if (id > projects.length - 1 || isNaN(id)){
         next();
@@ -38,23 +38,28 @@ app.get('/:id', (req, res, next) => {
 });
 
 
+
 // 404 handler
 app.use((req, res, next) =>{
-    console.log("Page not found")
-    res.status(404).render('page-not-found')
+    const err = new Error('err');
+    err.status = 404;
+    err.message = "Page not found"
+    next(err);
     
 });
 
 // Global error handler
 app.use((err, req, res, next) => {
     if (err){
-        console.log("Something went wrong")
+        console.log(err.status);
+        console.log(err.message)
     }
     if(err.status === 404){
-        res.status(404).render('page-not-found', { err });
+        res.render('page-not-found', { err });
     } else {
         err.message = err.message || "Something went wrong"
-        res.status(err.status || 500).render('error', { err })
+        err.status = err.status || 500
+        res.render('error', { err })
     }
     
 });
@@ -75,6 +80,3 @@ throw err
 }); */
 
 
-// Frågor till Olov:
-// Bilder. Måste det vara samma antal på alla?
-// alt.
