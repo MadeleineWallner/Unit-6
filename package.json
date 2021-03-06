@@ -2,22 +2,24 @@
   "name": "unit-6",
   "version": "1.0.0",
   "description": "Static Node.js and Express Site",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MadeleineWallner/Unit-6.git"
   },
-  "author": "Madeleine Wallner",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MadeleineWallner/Unit-6/issues"
   },
   "homepage": "https://github.com/MadeleineWallner/Unit-6#readme",
   "dependencies": {
-    "Express": "^3.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
     "pug": "^3.0.0"
   }
 }

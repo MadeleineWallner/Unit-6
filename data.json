@@ -1,0 +1,54 @@
+{
+    "projects": [
+        {
+            "id": "0",
+            "project_name": "Random Quote Generator",
+            "description": "This program displays a randomly selected quote every 5 seconds, or every time the user clicks the button.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://madeleinewallner.github.io/a-random-quote-generator/",
+            "github_link": "https://github.com/MadeleineWallner/a-random-quote-generator",
+            "thumbnail": "static/images/thumbnails/1-1.png",
+            "image_urls": ["static/images/project1/1-2.png", "static/images/project1/1-3.png", "static/images/project1/1-4.png"]
+        },
+        {
+            "id": "1",
+            "project_name": "List Pagination and Filtering",
+            "description": "A list of 54 students are displayed 10 at a time. The user can navigate with the buttons on the bottom of the page, or search for a student in the search bar.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://madeleinewallner.github.io/List-Pagination-and-Filtering/",
+            "github_link": "https://github.com/MadeleineWallner/List-Pagination-and-Filtering",
+            "thumbnail": "static/images/thumbnails/2-1.png",
+            "image_urls": ["static/images/project2/2-3.png", "static/images/project2/2-2.png", "static/images/project2/2-4.png"]
+        },
+        {
+            "id": "2",
+            "project_name": "Interactive Form",
+            "description": "An interactive registration form for a fictional conference.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://madeleinewallner.github.io/Project-3-interactive-form/",
+            "github_link": "https://github.com/MadeleineWallner/Project-3-interactive-form",
+            "thumbnail": "static/images/thumbnails/3-1.png",
+            "image_urls": ["static/images/project3/3-4.png", "static/images/project3/3-3.png", "static/images/project3/3-2.png"]
+        },
+        {
+            "id": "3",
+            "project_name": "OOP Game Show App",
+            "description": "Phrase Hunter - a browser-based phrase guessing game. If the player makes five incorrect guesses it's Game Over.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://madeleinewallner.github.io/Project-4-OOP-Game-Show-App/",
+            "github_link": "https://github.com/MadeleineWallner/Project-4-OOP-Game-Show-App",
+            "thumbnail": "static/images/thumbnails/4-1.png",
+            "image_urls": ["static/images/project4/4-2.png", "static/images/project4/4-4.png", "static/images/project4/4-3.png"]
+        },
+        {
+            "id": "4",
+            "project_name": "Public API Requests",
+            "description": "An app that lets the employees of a fictional company share contact information with each other.",
+            "technologies": ["JavaScript", "HTML", "CSS", "Fetch API"],
+            "live_link": "https://madeleinewallner.github.io/Project-5---Public-API-Requests/",
+            "github_link": "https://github.com/MadeleineWallner/Project-5---Public-API-Requests",
+            "thumbnail": "static/images/thumbnails/5-1.png",
+            "image_urls": ["static/images/project5/5-2.png", "static/images/project5/5-3.png", "static/images/project5/5-4.png"]
+        }
+    ]
+}

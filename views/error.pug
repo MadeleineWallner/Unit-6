@@ -1,0 +1,7 @@
+extends layout.pug
+
+block content
+    h2.h2error #{err.status}
+    h1.h1error #{err.message}
+        br
+        a.btnError(href='/') Back
