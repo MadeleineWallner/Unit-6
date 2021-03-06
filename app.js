@@ -38,7 +38,6 @@ app.get('/project/:id', (req, res, next) => {
 });
 
 
-
 // 404 handler
 app.use((req, res, next) =>{
     const err = new Error('err');
