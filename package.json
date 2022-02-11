@@ -12,7 +12,7 @@
     "url": "git+https://github.com/MadeleineWallner/Unit-6.git"
   },
   "engines": {
-    "node": "4.7.0"
+    "node": "^12.11.1"
   },
   "author": "",
   "license": "ISC",
