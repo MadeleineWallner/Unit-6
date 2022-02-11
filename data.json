@@ -49,6 +49,16 @@
             "github_link": "https://github.com/MadeleineWallner/Project-5---Public-API-Requests",
             "thumbnail": "/static/images/thumbnails/5-1.png",
             "image_urls": ["/static/images/project5/5-2.png", "/static/images/project5/5-3.png", "/static/images/project5/5-4.png"]
+        },
+        {
+            "id": "5",
+            "project_name": "SQL Library Manager",
+            "description": "Listing, adding, updating and deleting books in a library application",
+            "technologies": ["JavaScript", "Node.js", "Express", "Pug", "SQL ORM Sequelize"],
+            "live_link": "https://unit-08.herokuapp.com",
+            "github_link": "https://github.com/MadeleineWallner/SQL-Library-Manager",
+            "thumbnail": "/static/images/thumbnails/6-1.png",
+            "image_urls": ["/static/images/project6/6-2.png", "/static/images/project6/6-3.png","/static/images/project6/6-4.png"]
         }
     ]
 }
