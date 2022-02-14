@@ -22,7 +22,7 @@ app.get('/about', (req, res) => {
 // Project route
 app.get('/project/:id', (req, res, next) => {
     const id  = req.params.id;
-    //if the user navigates to a route that does not exist (if the id is higher than 4 or not a number) - render the error page - else render the project page.
+    //if the user navigates to a route that does not exist - render the error page - else render the project page.
     if (id > projects.length - 1 || isNaN(id)){
         next();
     } else {

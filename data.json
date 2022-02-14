@@ -59,6 +59,16 @@
             "github_link": "https://github.com/MadeleineWallner/SQL-Library-Manager",
             "thumbnail": "/static/images/thumbnails/6-1.png",
             "image_urls": ["/static/images/project6/6-2.png", "/static/images/project6/6-3.png","/static/images/project6/6-4.png"]
+        },
+        {
+            "id": "6",
+            "project_name": "React Gallery App",
+            "description": "Image Gallery App using React",
+            "technologies": ["JavaScript", "React", "CSS"],
+            "live_link": "https://unit-7.herokuapp.com/",
+            "github_link": "https://github.com/MadeleineWallner/react-gallery-app",
+            "thumbnail": "/static/images/thumbnails/7-1.png",
+            "image_urls": ["/static/images/project7/7-1.png", "/static/images/project7/7-2.png","/static/images/project7/7-3.png"]
         }
     ]
 }
